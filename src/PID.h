@@ -18,6 +18,16 @@ public:
   double Kd;
 
   /*
+  * Variables
+  */
+  bool is_initialized;
+  double prev_cte;
+  double int_cte;
+  double steer;
+
+
+
+  /*
   * Constructor
   */
   PID();
