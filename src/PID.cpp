@@ -88,7 +88,7 @@ void PID::Twiddle (double tol) {
 				std::cout << "Increase twiddle" << std::endl;
 			} 
 			else {
-				decrease dp index
+				// decrease dp index
 				if (!decrease_dp_index) {
 					params[index] -= 2.0 * dp[index];
 					//increase_dp_index = true;

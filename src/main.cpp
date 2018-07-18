@@ -90,7 +90,7 @@ int main()
           
           // DEBUG
           std::cout << "# " << pid.it << "\tparams[" << pid.Kp << ", " << pid.Ki << ", " << pid.Kd << "]\tError: " << pid.err <<  "\t\tCTE: " << cte << " Steering Value: " << steer_value << std::endl;
-          std::cout << "\tp_error: " << pid.p_error << "\ti_error: " << pid.i_error << "\td_error: " << pid.d_error << std::endl
+          std::cout << "\tp_error: " << pid.p_error << "\ti_error: " << pid.i_error << "\td_error: " << pid.d_error << std::endl;
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
